@@ -78,6 +78,7 @@ int main() {
         // removeValue function removes the value at the specified index and shifts the array contents down
         else if (command == "R") {
             int index;
+            cout << "Enter the index of the value to remove from the array: ";
             cin >> index;
             removeValue(myArray, myArraySize, index);
         }
